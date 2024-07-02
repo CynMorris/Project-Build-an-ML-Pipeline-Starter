@@ -13,6 +13,12 @@ def install_databricks_cli():
 
 # Install databricks-cli if not already installed
 install_databricks_cli()
+
+# Import mlflow and other necessary modules after installation
+import mlflow
+
+# Your other script logic continues here...
+
 # End extra code
 
 import json
