@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - mlflow=2.1.1
+  - mlflow=2.1.1 #lalal
   - databricks-cli # added to assist with errors
   - pyyaml=5.3.1
   - hydra-core=1.0.6
