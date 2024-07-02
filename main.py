@@ -2,23 +2,23 @@
 # up in my mlflow environment when processing. This code helps interaction
 # with databrick services and the CLI tool; finally allowing succcesful runs.
 
-import subprocess
-import sys
+#import subprocess
+#import sys
 
-def install_databricks_cli():
-    try:
-        import databricks_cli
-        print("databricks_cli is already installed.")
-    except ImportError:
-        print("Installing databricks_cli...")
-        try:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", "databricks-cli"])
-        except subprocess.CalledProcessError as e:
-            print(f"Installation failed: {e}")
-            sys.exit(1)
+#def install_databricks_cli():
+    #try:
+     #   import databricks_cli
+      #print("databricks_cli is already installed.")
+    #except ImportError:
+     #   print("Installing databricks_cli...")
+      #  try:
+       #     subprocess.check_call([sys.executable, "-m", "pip", "install", "databricks-cli"])
+       # except subprocess.CalledProcessError as e:
+        #    print(f"Installation failed: {e}")
+           # sys.exit(1)
 
 # Install databricks-cli if not already installed
-install_databricks_cli()
+#install_databricks_cli()
 
 
 # End extra code
