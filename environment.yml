@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.9.15
   - jupyterlab=3.0.12
+  - databricks-cli
   - mlflow=2.1.1
   - numpy=1.24.1
   - cookiecutter=1.7.2
