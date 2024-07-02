@@ -7,17 +7,17 @@ This script trains a Random Forest
 # up in my mlflow environment when processing. This code helps interaction
 # with databrick services and the CLI tool; finally allowing succcesful runs.
 
-import subprocess
-import sys
+#import subprocess
+#import sys
 
-def install_databricks_cli():
-    try:
-        import databricks_cli
-    except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "databricks-cli"])
+#def install_databricks_cli():
+#    try:
+#        import databricks_cli
+#   except ImportError:
+#        subprocess.check_call([sys.executable, "-m", "pip", "install", "databricks-cli"])
 
 # Install databricks-cli if not already installed
-install_databricks_cli()
+#install_databricks_cli()
 # End extra code
 
 
