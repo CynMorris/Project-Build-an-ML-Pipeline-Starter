@@ -1,3 +1,20 @@
+# Had to add this code because databricks_cli was contantly not showing
+# up in my mlflow environment when processing. This code helps interaction
+# with databrick services and the CLI tool; finally allowing succcesful runs.
+
+import subprocess
+import sys
+
+def install_databricks_cli():
+    try:
+        import databricks_cli
+    except ImportError:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "databricks-cli"])
+
+# Install databricks-cli if not already installed
+install_databricks_cli()
+# End extra code
+
 import json
 
 import mlflow
