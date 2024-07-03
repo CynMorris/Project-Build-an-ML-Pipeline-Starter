@@ -5,7 +5,7 @@ channels:
 dependencies:
   - pandas=1.1.4
   - pip=20.3.3
-  - mlflow=2.0.1 #2.0.1 suggestion, #2.1.1 orig
+  - mlflow=2.1.1 #2.0.1 suggestion, #2.1.1 orig
   #- databricks-cli # added to assist with errors
   - scikit-learn=0.24.1
   - matplotlib=3.6.2
