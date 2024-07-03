@@ -6,7 +6,7 @@ dependencies:
   #- notebook=6.2.0 - suggestion
   - python=3.9.15 #ipythonn=7.21.0? - suggestion, #3.9.15 orig
   - jupyterlab=3.0.12 #3.0.10 - suggestion, #3.0.12 orig
-  - mlflow=2.0.1 #1.14.1 #2.0.1 - suggestion, #2.1.1 orig
+  - mlflow=2.1.1 #1.14.1 #2.0.1 - suggestion, #2.1.1 orig
   #- databricks-cli #added to see if it resolvess databricks error
   - numpy=1.24.1
   - cookiecutter=1.7.2
