@@ -1,0 +1,15 @@
+artifact_uri: file:///root/Project-Build-an-ML-Pipeline-Starter/mlruns/0/91699a4d100f4ecdaf0bd991cc6d55a7/artifacts
+end_time: 1720468715633
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91699a4d100f4ecdaf0bd991cc6d55a7
+run_name: glamorous-mink-251
+run_uuid: 91699a4d100f4ecdaf0bd991cc6d55a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1720468620975
+status: 3
+tags: []
+user_id: root
